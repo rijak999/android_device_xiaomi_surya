@@ -204,6 +204,9 @@ persist.sys.sf.color_mode=9
 # Disable Remote Keygaurd animation
 persist.wm.enable_remote_keyguard_animation=0
 
+# GFX
+ro.config.avoid_gfx_accel=true
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
