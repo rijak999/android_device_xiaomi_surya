@@ -83,6 +83,13 @@ vendor.audio.use.sw.ape.decoder=true
 vendor.audio.volume.headset.gain.depcal=true
 vendor.voice.path.for.pcm.voip=true
 
+# App launch prefetching (IORap)
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
+persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+ro.iorapd.enable=true
+
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.operating_voltage_mv=3300
