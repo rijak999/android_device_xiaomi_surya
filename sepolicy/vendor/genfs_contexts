@@ -64,5 +64,5 @@ genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify 
 # Power
 genfscon proc /sys/kernel/sched_energy_aware u:object_r:proc_sched_energy_aware:s0
 
-# Touchpanel
-genfscon sysfs /touchpanel                                                           u:object_r:sysfs_touchpanel:s0
+# DT2W
+genfscon proc /tp_gesture u:object_r:proc_tp_gesture:s0
