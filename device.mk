@@ -236,8 +236,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/security/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
-# Kernel
-PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
+# Kernel Prebuilt
+-include device/xiaomi/surya-kernel/device.mk
+
 
 # Keylayout
 PRODUCT_COPY_FILES += \
